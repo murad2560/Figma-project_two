@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header{
+    background: #FFFFFF;
+    border-bottom: 1px solid #CED4DA;
+}
+
+header nav .container .header_part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+}
+
+header nav .container .header_part .header_wrapper{
+    display: flex;
+    align-items: center;
+}
+
+header nav .container .header_part .header_wrapper h5{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #111827;
+    margin-left: 8px;
+}
+
+header nav .container .header_part .ul_list{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header nav .container .header_part .ul_list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: center;
+    list-style: none;
+}
+
+header nav .container .header_part .ul_list li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #111827;
+    
+}
+
+header nav .container .header_part .ul_list img{
+    width: 20px;
+    height: 20px;
+    
+}
+
+header nav .container .header_part .ul_list button{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 8px;
+    padding: 10px 18px;
+    border: none;
+   
+}
+       /* ============ header part end ========= */
+       /* ============ banner part strt ========= */
+#banner_part {
+    background: #FFFFFF;
+}
+#banner_part .container .banner_aria {
+    display: flex;
+}
+
+#banner_part .container .banner_aria .left{
+    width: 50%;
+}
+#banner_part .container .banner_aria .left h6{
+margin-top: 146.13px;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+color: #6B7280;
+margin-bottom: 9px;
+}
+#banner_part .container .banner_aria .left h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #111827;
+    margin-bottom: 24px;
+}
+
+#banner_part .container .banner_aria .left p{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #4B5563;
+margin-bottom: 24px;
+width: 565px;
+}
+#banner_part .container .banner_aria .left button{
+   font-size: 16px;
+font-weight: 500;
+line-height: auto;
+color: #FFFFFF;
+margin-bottom: 143.13px;
+background: #000000;
+padding: 15px 18.83px 11px 24px;
+border-radius: 8px;
+} 
+#banner_part .container .banner_aria .left .btn_one{
+    background: #FFFFFF;
+    color: #374151;
+   margin-left: 16px;
+}
+#banner_part .container .banner_aria .right img{
+margin: 108px auto 108px auto;
+border-radius: 8px;
+width: 584px;
+height: auto;
+margin-left:48px;
+}
+
+
+
+       /* ============ banner part end ========= */
+       /* ============ three part strt ========= */
+      
+#three_part .container .three_aria .three_wrapper{
+    text-align: center;
+
+}
+
+#three_part .container .three_aria .three_wrapper h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #111827;
+    margin-bottom: 15px;
+}
+#three_part .container .three_aria .three_wrapper h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #4B5563;
+    margin-bottom: 48px;
+}
+#three_part .container .three_aria .three_two h3{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: auto;
+    color: #111827;
+    margin-top: 19px;
+      margin-left: 24px;
+}
+#three_part .container .three_aria .three_two h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    color: #4B5563; 
+    margin-top: 10px;
+      margin-left: 24px;
+}
+#three_part .container .three_aria .three_two h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: auto;
+    color: #6B7280; 
+    margin-top: 4px;
+    margin-bottom: 23px;
+      margin-left: 24px;
+}
+#three_part .container .three_aria .three_card{
+    display: flex;
+    gap: 32px;
+}
+#three_part .container .three_aria .three_two{
+    background: #FFFFFF;
+    display:inline-block;
+    border-radius: 8px;
+    border: 1px solid gray;
+   width: 280px;
+ margin-bottom: 64px;
+}
+
+#three_part .container .three_aria .three_two img{
+      margin-left: 24px;
+      margin-top: 24px;
+    
+}
+
+       /* ============ three part end ========= */
+        /* ============ Fore part strt ========= */
+  #fore_part .container .fore_aria .fore_one{
+      text-align: center;
+  }
+#fore_part .container .fore_aria .fore_one h2{
+font-size: 30px;
+font-weight: 700;
+line-height:36px ;
+color:#111827 ;
+margin-left: 50px;
+margin-top: 64px;
+  }
+  #fore_part .container .fore_aria .fore_one h3{
+font-size: 18px;
+font-weight: 400;
+line-height:28px ;
+color:#4B5563 ;
+margin-top: 15px;
+margin-bottom: 48px;
+  }
+   #fore_part .container .fore_aria .fore_cade h4{
+font-size: 20px;
+font-weight: 600;
+line-height:28px ;
+color:#111827 ;
+margin-top: 16px;
+
+}
+#fore_part .container .fore_aria .fore_cade h6{
+font-size: 16px;
+font-weight: 400;
+line-height:24px ;
+color:#4B5563 ;
+margin-top: 8px;
+margin-bottom: 64px;
+text-align: center;
+
+}
+#fore_part .container .fore_aria .fore_cade  {
+    display: inline-block;
+    text-align: center;
+    width: 33.33%;
+}
+#fore_part .container .fore_aria .fore_three{
+    display: flex;
+     gap: 32px;
+}
+
+  /* ============ fore part end ========= */
+  /* ============ fore part end ========= */ 
+#five_part .container .five_aria .five_one h2{
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+color: #111827;
+padding-top: 64px;
+padding-bottom: 47px;
+
+}
+#five_part .container .five_aria .five_one{
+    text-align: center;
+}
+#five_part .container {
+    background: #E5E7EB;
+
+}
+#five_part .container .five_aria .five_two .one{
+    width:33.33%;
+   border-radius: 8px;
+
+}
+#five_part .container .five_aria .five_two{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 64px;
+}
+
+
+  /*  ============ fore part end ========= */ 
+  /*  ============ six part strt ========= */ 
+  #six_part .container{
+    background: #000000;
+  }
+#six_part .container .six_aria h2{
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+color: #FFFFFF;
+padding-top: 64px;
+}
+#six_part .container .six_aria h4{
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+color: #D1D5DB;
+padding-top: 15px;
+padding-bottom: 32px;
+}
+#six_part .container .six_aria button{
+background: #FFFFFF;
+font-size: 16px;
+font-weight: 500;
+line-height: auto;
+color: #000000;
+border-radius: 8px;
+padding-top: 15px;
+padding-bottom: 11px;
+padding-left: 32px;
+padding-right: 26.77px;
+border: 1px solid gray;
+margin-left: 16px;
+}
+#six_part .container .six_aria .btn_two{
+    background: #000000;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+#six_part .container .six_aria{
+    text-align: center;
+}
+
+
+  /*  ============ six part end ========= */ 
+  /*  ============ saven part strt ========= */ 
+
+#saven_Part .container{
+    background: #111827;
+}
+#saven_Part .container .saven_aria .saven_one{
+display: flex;
+gap: 8px;
+}
+#saven_Part .container .saven_aria h2{
+    font-size:20px ;
+    font-weight:700 ;
+    line-height: 28px;
+    color:#FFFFFF ;
+    margin-top: 50px;
+    margin-bottom: 18px;
+    
+}
+#saven_Part .container .saven_aria .hello_ig{
+    margin-top: 48px;
+    margin-bottom: 16px;
+
+}
+#saven_Part .container .saven_wrapper .saven_aria p{
+    font-size:16px ;
+    font-weight:400 ;
+    line-height: 24px;
+    color:#9CA3AF ;
+    margin-top: 16px;
+    padding-bottom: 88px;
+  }
+  #saven_Part .container .saven_wrapper h3{
+    font-size:16px ;
+    font-weight:600 ;
+    line-height: 24px;
+    color:#FFFFFF ;
+    padding-top: 48px;
+    padding-bottom: 16px;
+  }
+ #saven_Part .container .saven_wrapper{
+    display: flex;
+    gap: 32px;
+ }
+     #saven_Part .container .saven_wrapper .kire_beta{
+        margin-top: 8px;
+        margin-bottom: 8px;
+     }
+    #saven_Part .container .saven_wrapper h6{
+    font-size:16px ;
+    font-weight:400 ;
+    line-height: 24px;
+    color:#9CA3AF ;
+  
+  }
+   #saven_Part .container .saven_wrapper .saven{
+    
+    display: flex;
+    gap: 32px;
+   }
+   
+   #saven_Part .container .saven_wrapper .saven_two{
+    width: 280px;
+    height: auto;
+
+   }
+  /*  ============ saven part end ========= */ 
+  /*  ============ eight part strt ========= */
+  #eight_part .container{
+    background: #111827;
+
+  }
+   #eight_part .container .eight_one .eight_two {
+    text-align: center;
+   }
+ #eight_part .container .eight_one .eight_two h4{
+font-size: 16px;
+font-weight:400 ;
+line-height: 24px;
+color: #9CA3AF;
+padding-top: 10px;
+padding-bottom: 48px;
+}
+  /*  ============ eight part end ========= */
